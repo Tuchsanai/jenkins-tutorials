@@ -14,9 +14,7 @@ The environment directive specifies a sequence of key-value pairs which will be 
 
 ```
 pipeline {
-    agent {
-        label 'ubuntuNode1'
-    }
+    agent any
     environment { 
         fname = 'kamal'
     }
@@ -34,9 +32,7 @@ pipeline {
 
 ```
 pipeline {
-    agent {
-        label 'ubuntuNode1'
-    }
+    agent any
     stages {
         stage('one') {
             environment { 
