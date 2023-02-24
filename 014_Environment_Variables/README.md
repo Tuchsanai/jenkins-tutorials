@@ -68,7 +68,7 @@ pipeline {
             steps {
                 sh 'echo "Git user is $GIT_CREDS_USR"'
                 sh 'echo "Git password is $GIT_CREDS_PSW"'
-                sh 'echo " Current build number is $BUILD_NUMBER"
+                sh 'echo " Current build number is $BUILD_NUMBER"'
             }
         }
     }
